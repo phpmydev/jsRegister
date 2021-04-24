@@ -9,7 +9,7 @@
 
 module.exports = {
   port : 1992,
-  sitename: 'JS REGISTER',
+  sitename: 'JS REGISTER', /* appears in the upper left corner of your calendar*/
   favicon: 'favicon.png', /* under html/images */
   certpath: '/home/pi/', /* ./ if in this root*/
   certKey: 'domain.key',
