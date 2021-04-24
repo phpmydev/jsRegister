@@ -4,7 +4,7 @@ a checkbook register running on node js
 ## This app is meant to be run on a local network - there is no login or authentication
 
 
-## mysql db code:
+### mysql db code:
 
 create database jsRegister;
 
