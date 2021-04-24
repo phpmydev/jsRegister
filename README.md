@@ -30,7 +30,9 @@ if you want to change the dbname, change the sql above and edit config.js to ref
 
 You will need to make several changes in config.js, the main configuration file to suit your app
 
-Install node js
+### Install node js
+
+see https://phoenixnap.com/kb/update-node-js-version
 
 ### Install nodemon globally with 
 * sudo npm i nodemon -g
