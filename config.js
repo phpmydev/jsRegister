@@ -11,7 +11,7 @@ module.exports = {
   port : 1992,
   sitename: 'JS REGISTER', /* appears in the upper left corner of your calendar*/
   favicon: 'favicon.png', /* under html/images */
-  certpath: '/home/pi/', /* ./ if in this root*/
+  certpath: '/home/pi/', /* ./ if in this directory*/
   certKey: 'domain.key',
   cert: 'chained.pem',
   host: 'jsregister.jsnode.dev', /* inconsequential - sed only for console logging the domain*/
