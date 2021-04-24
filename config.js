@@ -11,12 +11,12 @@ module.exports = {
   port : 1992,
   sitename: 'JS REGISTER',
   favicon: 'favicon.png', /* under html/images */
-  certpath: '/home/pi/',
+  certpath: '/home/pi/', /* ./ if in this root*/
   certKey: 'domain.key',
   cert: 'chained.pem',
-  host: 'jsregister.jsnode.dev',
-  dbhost: '192.168.1.100',
-  dbuser: 'pmd',
-  dbpassword: '',
+  host: 'jsregister.jsnode.dev', /* inconsequential - sed only for console logging the domain*/
+  dbhost: '192.168.1.100', /* localhost or remote pi running mysql */
+  dbuser: 'yourdbusername',
+  dbpassword: 'yourdbpassword',
   database: 'yourdbname',
 }
