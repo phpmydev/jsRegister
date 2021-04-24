@@ -29,10 +29,11 @@ You will need to make several changes in config.js, the main configuration file 
 
 Install node js
 
-Install nodemon globally with 
+### Install nodemon globally with 
 * sudo npm i nodemon -g
+* npm install // to pull the node_modules, which are not included in this repo
 
-After you run the sql code, unpack the app at your desired location
+### After you run the sql code, unpack the app at your desired location
 
 get a free cert from let's encrypt https://letsencrypt.org and install it at your desired location (can be in the root of your app)
 
@@ -40,7 +41,7 @@ cd /home/your/node/location
 
 run ./nodestart.sh
 
-navigate to https://your.local.domain:port
+### navigate to https://your.local.domain:port
 
 add events by using the form given
 
