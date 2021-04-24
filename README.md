@@ -36,7 +36,8 @@ see https://phoenixnap.com/kb/update-node-js-version
 
 ### Install nodemon globally with 
 * sudo npm i nodemon -g
-* npm install // to pull the node_modules, which are not included in this repo
+* npm install 
+* to pull the node_modules, which are not included in this repo
 
 ### After you run the sql code, unpack the app at your desired location
 
