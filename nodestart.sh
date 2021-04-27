@@ -8,6 +8,7 @@ if nc -zv $IP $PORT
 then
 echo 'ok'
 else
+killall node
 echo 'restarting the app'
 nodemon --ignore html/ app.js < /dev/null > startup.log 2> err.log &
 fi
