@@ -45,6 +45,8 @@ get a free cert from let's encrypt https://letsencrypt.org and install it at you
 
 cd /home/your/node/location
 
+### Edit nodestart.sh to suit
+
 run ./nodestart.sh
 
 ### navigate to https://your.local.domain:port
